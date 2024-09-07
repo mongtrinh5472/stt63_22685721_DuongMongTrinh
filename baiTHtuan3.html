@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 800px;
+            width: 1089px;
+            border: 1px solid royalblue);
+        }
+        
+        nav {
+            height: 50px;
+            width: 1089px;
+            background-color: rgb(246, 251, 252);
+        }
+        
+        header {
+            height: 150px;
+            width: 1089px;
+            background-color: rgb(242, 246, 248);
+        }
+        
+        .content {
+            height: 500px;
+            width: 1089px;
+            background-color: rgb(62, 135, 231);
+        }
+        
+        .menu_left {
+            height: 500px;
+            width: 20%;
+            background-color: rgb(247, 245, 242);
+            float: left;
+        }
+        
+        .ct1 {
+            height: 500px;
+            width: 40%;
+            background-color: rgb(87, 183, 238);
+            float: left;
+        }
+        
+        .ct2 {
+            height: 500px;
+            width: 40%;
+            background-color: rgb(90, 150, 240);
+            float: left;
+        }
+        
+        .menu li {
+            height: 50px;
+            width: 160px;
+            background-color: rgb(163, 221, 241);
+            float: left;
+            line-height: 50px;
+            text-align: center;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: rgb(14, 13, 13);
+        }
+        
+        li:hover {
+            background-color: rgb(54, 146, 221);
+        }
+        
+        li:hover>a {
+            background-color: rgb(118, 236, 227);
+        }
+        
+        .sub_menu li {
+            background-color: rgb(95, 108, 223);
+            text-shadow: 10px;
+            list-style: none;
+        }
+        
+        .menu li .sub_menu {
+            display: none;
+        }
+        
+        li:hover>.sub_menu {
+            display: block;
+        }
+        
+        header img {
+            width: 1089px;
+            height: 150px;
+            max-height: 150px;
+            object-fit: cover;
+        }
+        
+        footer {
+            width: 1089px;
+            height: 150px;
+        }
+        
+        footer img {
+            width: 1089px;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="https://www.megas.vn/">HOME</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100025556952221&mibextid=LQQJ4d">CONTACT</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">HOTLINE</a></li>
+                <li><a href="#">DANG PHONG</a>
+                    <ul class="sub_menu">
+                        <li><a href="">duplex</a></li>
+                        <li><a href="">studio</a></li>
+                        <li><a href="">1pn</a></li>
+                        <li><a href="">2pn X</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <img src="../img/banner-1036483_1280.webp" alt="anh khong hien thị">
+
+        </header>
+        <div class="content">
+            <div class="menu_left">
+                <ul class="menu">
+                    <li><a href="#">GO VAP</a></li>
+                    <li><a href="#">BINH THANH</a></li>
+                    <li><a href="#">THU DUC</a></li>
+                    <li><a href="#">TAN BINH</a></li>
+                    <li><a href="#">TAN PHU</a></li>
+                </ul>
+            </div>
+            <div class="ct1"></div>
+            <div class="ct2"></div>
+        </div>
+        <footer>
+            <img src="../img/logo-1340516_1280.webp">
+        </footer>
+    </div>
+</body>
+
+</html>
